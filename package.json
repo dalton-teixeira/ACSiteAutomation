@@ -1,0 +1,42 @@
+{
+  "name": "testio",
+  "version": "0.1.0",
+  "description": "Boilerplate project to run WebdriverIO tests with Cucumber",
+  "homepage": "https://github.com/dalton-teixeira/TestFrameworkIO",
+  "main": "test/runner.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dalton-teixeira/TestFrameworkIO.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dalton-teixeira/TestFrameworkIO/issues"
+  },
+  "keywords": [
+    "webdriverio",
+    "cucumber",
+    "test",
+    "selenium"
+  ],
+  "author": "Dalton Teixeira <dalton.silveira@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "~3.4.1",
+    "deepmerge": "~0.2.7",
+    "glob": "~6.0.1",
+    "mocha": "*",
+    "mocha-jenkins-reporter": "*",
+    "q": "~1.4.1",
+    "webdriverio": "*",
+    "yadda": "*",
+    "xunit-file": "*",
+    "reporter-file": "*"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.5",
+    "phantomjs": "^1.9.19",
+    "selenium-standalone": "^4.8.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
