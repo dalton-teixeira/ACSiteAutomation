@@ -5,13 +5,18 @@ var WaitForElemReady = function(selector, timeout){
         try{
           result =
             this.isExisting(selector).then(function(isExisting){ return isExisting; }) &&
-            this.isEnabled(selector).then(function(isEnabled){ return isEnabled; }) &&
-            this.isVisible(selector).then(function(isVisible){ return isVisible; });
-            this.scroll(selector);
+            this.isEnabled(selector).then(function(isEnabled){ return isEnabled; });
+
+            this.scroll(selector).moveToObject(selector);
         }
         catch(e){
+          console.log("Error: " + e);
           return false;
         }
+        this.isExisting(selector).then(function(isExisting){ console.log("isExisting: " + isExisting); });
+        this.isEnabled(selector).then(function(isEnabled){ console.log("isEnabled: " + isEnabled); });
+        this.isVisible(selector).then(function(isVisible){ console.log("isVisible: " + isVisible); });
+        console.log("result: " + result);
         return result;
       }, timeout)
       .then(function(){

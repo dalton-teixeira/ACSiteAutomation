@@ -1,0 +1,15 @@
+<testsuite name="Mocha Tests" tests="13" failures="0" errors="0" skip="0" timestamp="Mon, 14 Mar 2016 13:38:09 GMT" time="39.075">
+<testcase classname="Apply Any avaliable job postion in BH" name="Given I open the site &quot;/&quot;" time="4.381"/>
+<testcase classname="Apply Any avaliable job postion in BH" name="And I click on the &quot;Careers&quot;" time="5.233"/>
+<testcase classname="Apply Any avaliable job postion in BH" name="Then I expect the url to contain &quot;careers&quot;" time="0.067"/>
+<testcase classname="Apply Any avaliable job postion in BH" name="When I click at 1st &quot;CareersOffice&quot;" time="4.909"/>
+<testcase classname="Apply Any avaliable job postion in BH" name="And I click at 1st &quot;DepartmentJob&quot;" time="2.572"/>
+<testcase classname="Apply Any avaliable job postion in BH" name="And I click at 1st &quot;JobTitle&quot;" time="4.838"/>
+<testcase classname="Apply Any avaliable job postion in BH" name="Then I expect the url to contain &quot;careers&quot;" time="0.071"/>
+<testcase classname="Apply Any avaliable job postion in BH" name="When I click on the &quot;SubmitButton&quot;" time="2.652"/>
+<testcase classname="Apply Any avaliable job postion in BH" name="Then I expect the url to contain &quot;careers&quot;" time="0.063"/>
+<testcase classname="Apply Any avaliable job postion in BH" name="And I expect that element &quot;FirstNameErrorMessage&quot; is not empty" time="2.68"/>
+<testcase classname="Apply Any avaliable job postion in BH" name="And I expect that element &quot;LastNameErrorMessage&quot; is not empty" time="2.714"/>
+<testcase classname="Apply Any avaliable job postion in BH" name="And I expect that element &quot;EmailErrorMessage&quot; is not empty" time="2.645"/>
+<testcase classname="Apply Any avaliable job postion in BH" name="And I expect that element &quot;PhoneErrorMessage&quot; is not empty" time="2.695"/>
+</testsuite>
